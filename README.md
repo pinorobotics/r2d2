@@ -58,8 +58,8 @@ Plan command inside RViz (MotionPlanning panel) could fail with the following er
 [move_group-3] Invalid Trajectory: start point deviates from current robot state more than 0.01 [move_group-3] joint 'Joint_0': expected: 3.01878, current: -0.0814851  
 ```
 
-This happens because RViz seems to cache last "<current>" state and does not update it after Execute command.
-To fix this, select "<current>" state again inside "Start State" drop down.
+This happens because RViz seems to cache last "current" state and does not update it after Execute command.
+To fix this, select "current" state again inside "Start State" drop down.
 
 # Contacts
 
