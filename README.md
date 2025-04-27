@@ -16,12 +16,11 @@ Testing was done with ROS2 Humble.
 Clone:
 ```
 cd <ROS WORKSPACE>/src
-git clone \
-  https://github.com/pinorobotics/r2d2 \
-  https://github.com/pinorobotics/r2d2_urdf \
-  https://github.com/pinorobotics/r2d2_moveit_config \
-  https://github.com/pinorobotics/r2d2_servo \
-  https://github.com/pinorobotics/r2d2_control
+git clone https://github.com/pinorobotics/r2d2
+git clone https://github.com/pinorobotics/r2d2_urdf
+git clone https://github.com/pinorobotics/r2d2_moveit_config
+git clone https://github.com/pinorobotics/r2d2_servo
+git clone https://github.com/pinorobotics/r2d2_control
 ```
 
 Build Dorna2 controller:
@@ -34,7 +33,11 @@ Build ROS packages:
 ```
 cd <ROS WORKSPACE>
 colcon build
-source install/setup.zsh
+```
+
+Setup environment (for zsh replace to "setup.zsh"):
+```
+source install/setup.bash
 ```
 
 # Usage
@@ -43,7 +46,7 @@ Following command starts r2d2_control, MoveIt and RViz:
 ```
 ros2 launch r2d2 r2d2_launch.py
 ```
-It expects Dorna2 arm "Command Server" to be reachable on default URL (see `r2d2_control` package instructions how to redefine it).
+It expects Dorna2 arm "Command Server" to be reachable on default URL (see instructions inside `r2d2_control` package how to redefine it).
 
 After all nodes are started it is possible to Plan and Execute trajectories from MotionPlanning panel.
 
