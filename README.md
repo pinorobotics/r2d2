@@ -52,6 +52,10 @@ After all nodes are started it is possible to Plan and Execute trajectories from
 
 Other usage commands for **r2d2** packages can be found inside README files of the respective packages (r2d2_servo, r2d2_urdf, ...).
 
+[![Planning and executing trajectories with MoveIt MotionPlanning plugin](imgs/demo1.png)](https://vimeo.com/1079213239)
+
+[![Servoing the Dorna robotic arm with teleops](imgs/demo2.png)](https://vimeo.com/1079214584)
+
 # Troubleshooting
 
 ## start point deviates from current robot state
