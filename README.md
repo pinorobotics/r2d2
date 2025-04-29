@@ -56,6 +56,10 @@ Other usage commands for **r2d2** packages can be found inside README files of t
 
 [![Servoing the Dorna robotic arm with teleops](imgs/demo2.png)](https://vimeo.com/1079214584)
 
+# Documentation
+
+- [Java based ROS2 controller for Dorna2 robotic arm](http://pinoweb.freetzi.com/jroscontrol/r2d2/index.html)
+
 # Troubleshooting
 
 ## start point deviates from current robot state
