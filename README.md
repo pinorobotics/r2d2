@@ -9,7 +9,7 @@ List of packages:
 - [r2d2_servo](https://github.com/pinorobotics/r2d2_servo)
 - [r2d2_control](https://github.com/pinorobotics/r2d2_control)
 
-Testing was done with ROS2 Humble.
+Testing was done with ROS2 Jazzy.
 
 # Build
 
